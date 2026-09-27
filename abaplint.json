@@ -1,0 +1,40 @@
+{
+  "global": {
+    "files": "/examples/**/*.abap"
+  },
+  "syntax": {
+    "version": "v750"
+  },
+  "rules": {
+    "check_syntax": {
+      "severity": "Error"
+    },
+    "call_transaction_authority_check": {
+      "severity": "Error"
+    },
+    "cds_legacy_view": {
+      "severity": "Error"
+    },
+    "db_operation_in_loop": {
+      "severity": "Error"
+    },
+    "modify_only_own_db_tables": {
+      "severity": "Error"
+    },
+    "obsolete_statement": {
+      "severity": "Error"
+    },
+    "select_add_order_by": {
+      "severity": "Error"
+    },
+    "select_single_full_key": {
+      "severity": "Error"
+    },
+    "sql_escape_host_variables": {
+      "severity": "Error"
+    },
+    "form_tables_obsolete": {
+      "severity": "Error"
+    }
+  }
+}
